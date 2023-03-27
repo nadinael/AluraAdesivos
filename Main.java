@@ -22,11 +22,26 @@ class Main {
 
     System.out.println(filmes.size());
     for (Map<String, String> filme : filmes) {
+      System.out.print(Estilo.ini() + Estilo.bold());
+      System.out.print(Estilo.bgBlack() + Estilo.textMag());
       System.out.println(filme.get("title"));
+      System.out.print(Estilo.bgBlack());
       System.out.println(filme.get("image"));
-      System.out.println(filme.get("imDbRating"));
+      double nota = Double.parseDouble(filme.get("imDbRating"));
+      System.out.print(nota + " ");
+      for (int i = 0; i < nota; i++) {
+        System.out.print("🌟");
+      }
+      /*
+       * if (nota >= 9) {
+       * System.out.print(" 👍");
+       * } else {
+       * System.out.print(" 👎");
+       * }
+       */
+
       System.out.println();
     }
-    System.out.println("Fim do programa!");
+    System.out.println("\u001b[3m Fim do programa!");
   }
 }
