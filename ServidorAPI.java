@@ -35,6 +35,10 @@ public class ServidorAPI {
     return propriedades.getProperty("api-herois-chave");
   }
 
+  public String getAluraTop2() {
+    return propriedades.getProperty("api-movies");
+  }
+
   ServidorAPI() {
     propriedades = new Properties();
     configurar();

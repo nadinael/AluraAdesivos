@@ -23,12 +23,12 @@ class Main {
     System.out.println(filmes.size());
     for (Map<String, String> filme : filmes) {
       System.out.print(Estilo.ini() + Estilo.bold());
-      System.out.print(Estilo.bgBlack() + Estilo.textMag());
-      System.out.println(filme.get("title"));
-      System.out.print(Estilo.bgBlack());
-      System.out.println(filme.get("image"));
+      System.out.print(Estilo.bgBlack() + Estilo.textCian());
+      System.out.println("Filme: " + filme.get("title"));
+      System.out.print(Estilo.textWhite());
+      System.out.println("Poster: " + filme.get("image"));
       double nota = Double.parseDouble(filme.get("imDbRating"));
-      System.out.print(nota + " ");
+      System.out.print("Nota: " + nota + " ");
       for (int i = 0; i < nota; i++) {
         System.out.print("🌟");
       }
