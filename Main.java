@@ -12,7 +12,7 @@ import java.net.http.HttpResponse.BodyHandlers;
 class Main {
   public static void main(String[] args) throws IOException, Exception {
     ServidorAPI sAPI = new ServidorAPI();
-    URI endereco = URI.create(sAPI.getAluraFilmesAPI());
+    URI endereco = URI.create(sAPI.getApiAlternativa());
     HttpClient cliente = HttpClient.newHttpClient();
     HttpRequest requisicao = HttpRequest.newBuilder(endereco).GET().build();
     HttpResponse<String> resposta = cliente.send(requisicao, BodyHandlers.ofString());

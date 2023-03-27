@@ -38,6 +38,10 @@ public class ServidorAPI {
   public String getAluraTop2() {
     return propriedades.getProperty("api-movies");
   }
+public String getApiAlternativa() {
+    return propriedades.getProperty("api-luska");
+  }
+  
 
   ServidorAPI() {
     propriedades = new Properties();
