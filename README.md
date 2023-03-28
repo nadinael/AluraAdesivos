@@ -48,13 +48,13 @@ ____________________
 
 _____________________________________
 <h2>Desafios: </h2>
-<br>- Criar diretório de saída das imagens, se ainda não existir. Confira a resolução do desafio aqui!
+<br>- Criar diretório de saída das imagens, se ainda não existir.
 <br><i>Desafio pendente.</i>
-<br>- Centralizar o texto na figurinha. Confira a resolução do desafio aqui!
+<br>- Centralizar o texto na figurinha.
 <br><i>Desafio pendente.</i>
-<br>- Colocar outra fonte como a Comic Sans ou a Impact, a fonte usada em memes. Confira a resolução do desafio aqui!
+<br>- Colocar outra fonte como a Comic Sans ou a Impact, a fonte usada em memes.
 <br><i>Desafio pendente.</i>
-<br>- Colocar contorno (outline) no texto da imagem. Confira a resolução do desafio aqui!
+<br>- Colocar contorno (outline) no texto da imagem.
 <br><i>Desafio pendente.</i>
 <br>- Colocar uma imagem de você que está fazendo esse curso sorrindo, fazendo joinha e fazer com que o texto da figurinha
 seja personalizado de acordo com as classificações do IMDB.!
