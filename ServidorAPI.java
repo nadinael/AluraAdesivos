@@ -46,6 +46,6 @@ public String getApiAlternativa() {
   ServidorAPI() {
     propriedades = new Properties();
     configurar();
-    System.out.println("construtor executado.");
+   // System.out.println("construtor executado.");
   }
 }
