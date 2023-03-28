@@ -1,6 +1,8 @@
 Este é um projeto criado com o intuito de praticar um pouco a linguagem Java, há muito abandonada cruelmente por mim. ;-)
 <br>
 ![](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+<br>
+![](https://user-images.githubusercontent.com/18605511/228116499-c0197e2a-54ce-4ace-8927-58240bad9a89.png)
 <br>[Confira o projeto aqui!](https://replit.com/@NadinaelSilva/AluraAdesivos)
 # [Imersão Alura Java](https://www.alura.com.br/imersao-java?version=java2)
 
