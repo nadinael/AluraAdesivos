@@ -1,5 +1,5 @@
 Este é um projeto criado com o intuito de praticar um pouco a linguagem Java, há muito abandonada cruelmente por mim. ;-)
-
+![](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 # [Imersão Alura Java](https://www.alura.com.br/imersao-java?version=java2)
 
  
