@@ -9,6 +9,9 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.net.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 import javax.imageio.ImageIO;
 
@@ -41,8 +44,18 @@ public class FabricaDeFiguras {
     // escrever uma frase em uma imagem
     grafico.drawString("Imersao Alura", 100, novaAltura - 120);
     // guardar a imagem
-    String img = System.getProperty("user.dir") + "/saida/" + nomeArquivo;
-    ImageIO.write(imagem, "png", new File(img));
+
+    String img = System.getProperty("user.dir") + File.separator + "saida" + File.separator;
+    Path contexto = Paths.get(img);
+
+    if (!Files.exists(contexto)) {
+      Files.createDirectories(contexto);
+      // novoArquivo.mkdir();
+      System.out.println("Pasta Criada.");
+    }
+    img = img + nomeArquivo + ".png";
+    File novoArquivo = new File(img);
+    ImageIO.write(imagem, "png", novoArquivo);
     System.out.println("Adesivo criado.");
   }
 
