@@ -42,7 +42,7 @@ ou uma variável de ambiente.
 
 ____________________
  
-# Aula 01 - Criando uma fábrica de stickers
+# Aula 02 - Criando uma fábrica de stickers
  Criar um gerador de figurinhas explorando outras bibliotecas nativas do Java! Nesta aula, implementamos uma fábrica de
  figurinhas, utilizando recursos de leitura e escrita nativas do Java.
 
