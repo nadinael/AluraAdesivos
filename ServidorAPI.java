@@ -19,7 +19,7 @@ public class ServidorAPI {
       propriedades.load(inputStream);
 
     } catch (IOException ex) {
-      ex.printStackTrace();
+      throw new RuntimeException(ex);
     }
   }
 
@@ -38,14 +38,20 @@ public class ServidorAPI {
   public String getAluraTop2() {
     return propriedades.getProperty("api-movies");
   }
-public String getApiAlternativa() {
+
+  public String getNasaApi() {
+    return propriedades.getProperty("api-nasa");
+  }
+
+  public String getApiAlternativa() {
+    // System.out.println("ENCONTRANDO API");
+    // System.out.println(propriedades.getProperty("api-luska"));
     return propriedades.getProperty("api-luska");
   }
-  
 
   ServidorAPI() {
     propriedades = new Properties();
     configurar();
-   // System.out.println("construtor executado.");
+    // System.out.println("construtor executado.");
   }
 }
