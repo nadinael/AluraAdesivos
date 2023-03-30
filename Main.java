@@ -8,7 +8,7 @@ class Main {
     var sis = new Sistema();
     Scanner sc = new Scanner(System.in);
     System.out.println(
-        "O QUE VOCE DESEJA FAZER? \n 1 = GERAR FIGURAS DA NASA, 2 = GERAR FIGURAS DOS MELHORES FILMES, 3 = LISTAR OS MELHORES FILMES DO IMDB.");
+        "O QUE VOCE DESEJA FAZER? \n 1 = GERAR FIGURAS DA NASA, \n 2 = GERAR FIGURAS DOS MELHORES FILMES, \n 3 = GERAR FIGURAS LINGUAGEM \n4 = LISTAR OS MELHORES FILMES DO IMDB.");
     char ch = sc.next().charAt(0);
 
     switch (ch) {
@@ -17,6 +17,9 @@ class Main {
         break;
       case '2':
         sis.fabricarFigurasImdb();
+        break;
+      case '3':
+        sis.fabricarFigurasLinguagens();
         break;
       default:
         sis.listarFilmes();

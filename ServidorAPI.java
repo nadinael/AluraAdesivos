@@ -49,6 +49,10 @@ public class ServidorAPI {
     return propriedades.getProperty("api-luska");
   }
 
+  public String getLinguagem() {
+    return propriedades.getProperty("linguagem");
+  }
+
   ServidorAPI() {
     propriedades = new Properties();
     configurar();

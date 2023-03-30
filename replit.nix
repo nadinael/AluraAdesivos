@@ -1,5 +1,6 @@
 { pkgs }: {
     deps = [
+        pkgs.mkinitcpio-nfs-utils
         pkgs.iputils
         pkgs.graalvm17-ce
         pkgs.maven

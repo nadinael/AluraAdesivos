@@ -78,6 +78,41 @@ public class Sistema {
 
   }
 
+  public void teste() {
+    System.out.println(api.getLinguagem());
+  }
+
+  public void fabricarFigurasLinguagens() {
+    String corpo = http.buscarDados(api.getLinguagem());
+    System.out.println(corpo);
+   /* var ext = new ExtratorConteudoImdb();
+    List<Conteudo> conteudos = ext.extrairConteudo(corpo);
+    int qtpics = 0;
+    var fabrica = new FabricaDeFiguras();
+
+    try {
+      for (int i = 0; i < 3; i++) {
+        Conteudo conteudo = conteudos.get(i);
+        InputStream inputStream = new URL(conteudo.getUrlImage()).openStream();
+        String nomeArquivo = conteudo.getTitulo();
+        if (qtpics < 5) {
+          fabrica.criar(inputStream, nomeArquivo);
+        }
+        // trecho para limitar o uso da memoria em testes.
+        qtpics++;
+
+      }
+
+    } catch (MalformedURLException ex) {
+      ex.getStackTrace();
+    } catch (IOException ex) {
+      ex.getStackTrace();
+    } catch (Exception ex) {
+      ex.getStackTrace();
+    }*/
+
+  }
+
   public Sistema() {
     this.api = new ServidorAPI();
     this.http = new ClienteHttp();
